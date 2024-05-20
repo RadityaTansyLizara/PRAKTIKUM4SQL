@@ -47,7 +47,8 @@ SELECT*FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
 
 ***Output :***
 
-GAMBAR
+![GAJI PEGAWAI BUKAN 2JT](https://github.com/RadityaTansyLizara/PRAKTIKUM4SQL/assets/147571863/2ebcc6af-f0bd-44ad-8e8e-6ffa16ac7340)
+
 
 **2. Tampilkan pegawai yang tunjangannya NULL!**
 
