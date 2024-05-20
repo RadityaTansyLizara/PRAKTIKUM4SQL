@@ -110,7 +110,7 @@ SELECT AVG(gaji) AS rata_rata_gaji FROM pegawai;
 **7. Tampilkan gaji terkecil!**
 
 ```
-SELECT MIN(gaji) AS terkecil FROM pegawai;
+SELECT MIN(gaji) AS gaji_terkecil FROM pegawai;
 ```
 
 ***Output :***
