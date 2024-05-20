@@ -157,39 +157,43 @@ INSERT INTO hewan VALUES
 
 ***Output :***
 
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM4SQL/assets/147571863/06021723-0aa4-4ab3-860d-98f97df61196)
+
 
 ## Tugas Praktikum
 
 **1. Tampilkan jumlah hewan yang dimiliki setiap owner.**
 
 ```
-SELECT owner, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY owner;
+SELECT owner, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY owner;
 ```
 
 ***Output :***
 
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM4SQL/assets/147571863/718def00-f534-40bf-83a8-817d7f13e8f4)
+
 
 **2. Tampilkan jumlah hewan berdasarkan spesies**
 
 ```
-SELECT species, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY species;
+SELECT species, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY species;
 ```
 
 ***Output :***
 
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM4SQL/assets/147571863/a8ff6ebb-d157-4afd-82ef-d9e9f8893e2d)
+
 
 **3. Tampilkan jumlah hewan berdasarkan jenis kelamin**
 
 ```
-SELECT sex, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY sex;
+SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY sex;
 ```
 
 ***Output :***
 
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM4SQL/assets/147571863/1f3af21f-40ac-4312-94ac-07f08105a3d4)
+
 
 **4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin**
 
@@ -199,7 +203,8 @@ SELECT species, sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY species, sex;
 
 ***Output :***
 
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM4SQL/assets/147571863/69c1136e-b406-4d78-b7df-9a1665ddd24d)
+
 
 **5. Tampilkan jumlah hewan berdasarkan spesis (cat dan dog saja) dan jenis kelamin**
 
@@ -211,7 +216,8 @@ GROUP BY species, sex;
 
 ***Output :***
 
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM4SQL/assets/147571863/056f1060-f4bc-4051-83de-464027273891)
+
 
 **6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja**
 
@@ -221,7 +227,8 @@ SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan WHERE sex IS NOT NULL GROUP BY s
 
 ***Output :***
 
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM4SQL/assets/147571863/85e164ea-47ca-4d79-8842-5b218692b809)
+
 
 ## Tulis semua perintah-perintah SQL percobaan di atas beserta outputnya!
 
