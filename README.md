@@ -6,8 +6,10 @@
 | Kelas | TI.23.A5 |
 | Mata Kuliah | Basis Data |
 
-# Soal Latihan Praktikum ( Pegawai )
-GAMBAR SOAL
+# Soal ( Pegawai )
+
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM4SQL/assets/147571863/681431a6-a340-4421-bff3-df8c2c66f653)
+
 **Perintah SQL :**
 
 ```
@@ -128,9 +130,10 @@ SELECT MAX(gaji) AS terbesar FROM pegawai;
 
 
 
-# Soal Latihan Praktikum ( Hewan )
+# Soal ( Hewan )
 
-GAMBAR SOAL
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM4SQL/assets/147571863/6c34fded-937a-429c-bd48-ed26f7e1152e)
+
 
 **Perintah SQL :**
 
