@@ -34,7 +34,8 @@ INSERT INTO pegawai VALUES
 
 ***Output :***
 
-GAMBAR
+![OUTPUT SOAL TABLE 1](https://github.com/RadityaTansyLizara/PRAKTIKUM4SQL/assets/147571863/1cf0c0cd-9aba-447c-995f-afd55ee544d1)
+
 
 ## Tugas Praktikum
 
