@@ -121,7 +121,7 @@ SELECT MIN(gaji) AS terkecil FROM pegawai;
 **8. Tampilkan gaji terbesar!**
 
 ```
-SELECT MAX(gaji) AS terbesar FROM pegawai;
+SELECT MAX(gaji) AS gaji_terbesar FROM pegawai;
 ```
 
 ***Output :***
