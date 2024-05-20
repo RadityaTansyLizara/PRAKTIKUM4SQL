@@ -309,17 +309,8 @@ SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan WHERE sex IS NOT NULL GROUP BY s
 
 ## Berikan Kesimpulan Anda !
 
-Terdapat beberapa ***Query Filter*** yang ditemukan pada tugas praktikum 4 :
+Query Filter digunakan untuk membatasi hasil pencarian dengan menggunakan operator relasi seperti Sama Dengan, Lebih Besar, Kurang Dari, Lebih Besar Sama Dengan, Kurang atau Sama Dengan, dan Tidak Sama Dengan. Operator BETWEEN digunakan untuk mencari data dalam jangkauan tertentu. Alias digunakan untuk memberi nama lain pada field atau tabel. Operator DISTINCT digunakan untuk menghilangkan duplikasi. Operator LIKE digunakan untuk mencari data dengan menggunakan wildcard (_ atau %). Operator IN digunakan untuk memfilter data berdasarkan daftar yang ditentukan. Operator IS NULL digunakan untuk menampilkan data dengan nilai NULL
 
-- Operator `IN` digunakan untuk memfilter data yang terdapat pada list IN
-- Operator `NOT IN` digunakan untuk memfilter data yang tidak terdapat pada list IN
-- Operator `IS NULL` digunakan untuk menampilkan data dengan nilai data NULL
-- Operator `IS NOT NULL` digunakan untuk menampilkan data dengan nilai data tidak NULL
-- `COUNT` adalah perintah yang digunakan untuk menghitung jumlah baris suatu kolom pada tabel.
-- `SUM` adalah perintah yang digunakan untuk menghitung jumlah nilai suatu kolom pada tabel.
-- `AVG` adalah perintah yang digunakan untuk menghitung rata-rata dari nilai suatu kolom pada tabel.
-- `MIN` adalah perintah yang digunakan untuk menampilkan nilai terkecil dari suatu kolom pada tabel.
-- `MAX` adalah perintah yang digunakan untuk menampilkan nilai terbesar dari suatu kolom pada tabel.
-- Klausa `GROUP BY` berfungsi untuk mengelompokkan data berdasarkan field tertentu.
+Pengurutan Data dilakukan menggunakan perintah ORDER BY dengan model ascending dan descending. Fungsi Aggregat seperti COUNT, SUM, AVG, MIN, dan MAX digunakan untuk menghitung jumlah, jumlah nilai, rata-rata, nilai terkecil, dan nilai terbesar dari suatu kolom. Clauses GROUP BY digunakan untuk mengelompokkan data berdasarkan field tertentu. Group CONCAT digunakan untuk menggabungkan string dalam field yang dikelompokkan. Klausa HAVING digunakan untuk memfilter hasil query
 
-## FINISH 
+## SELESAI 
