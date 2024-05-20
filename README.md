@@ -99,7 +99,7 @@ SELECT SUM(gaji) AS total_gaji FROM pegawai;
 **6. Tampilkan/hitung rata-rata gaji pegawai!**
 
 ```
-SELECT AVG(gaji) AS mean_gaji FROM pegawai;
+SELECT AVG(gaji) AS rata_rata_gaji FROM pegawai;
 ```
 
 ***Output :***
