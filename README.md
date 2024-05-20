@@ -58,7 +58,8 @@ SELECT*FROM pegawai WHERE tunjangan IS NULL;
 
 ***Output :***
 
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM4SQL/assets/147571863/5719c1a7-148a-490a-993f-971726458b57)
+
 
 **3. Tampilkan pegawai yang tunjangannya tidak NULL!**
 
