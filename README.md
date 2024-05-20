@@ -88,7 +88,7 @@ SELECT COUNT(*) AS jumlah_pegawai FROM pegawai;
  **5. Tampilkan/hitung jumlah total gaji di tabel pegawai!**
 
 ```
-SELECT SUM(gaji) AS ttl_gaji FROM pegawai;
+SELECT SUM(gaji) AS total_gaji FROM pegawai;
 ```
 
 ***Output :***
